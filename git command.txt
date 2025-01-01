@@ -1,0 +1,31 @@
+#Git 저장소 초기화
+$ git config --global user.email "skyondos@gmail.com"
+$ git config --global user.name "skyondo91"
+$ git config --global user.password "github 인증토큰"
+$ git config credential.helper store
+git init -- 깃 초기화 
+$ git init 
+git add -- 로컬 저장소커밋 
+$ git add .  
+git commit -- 커밋 
+$ git commit -m "First commit"
+git remote -- 레파지토리 등록 
+$ git remote add origin #URL# 
+git push -- 푸쉬 
+$ git push -u origin master
+
+#Git Clone
+git clone https://github.com/skyondo91/RTOS.git
+
+#git reset(언스테이징)
+got reset [파일명]
+
+#git branch
+로컬 목록 보기
+git branch
+ 
+리모트 목록 보기
+git branch -r
+ 
+전체 목록 보기
+git branch -a
